@@ -1,0 +1,110 @@
+
+*, a
+{
+    color: #E0E0E0;
+    transition: color linear 0.5s;
+}
+
+::selection {
+    background: #FF5722;
+}
+
+.page:hover *,
+.page:hover a 
+{
+    transition: color linear 0.5s;
+    color: rgb(241, 238, 238);
+}
+
+.page
+{
+    transition: background-color linear 0.5s;
+    background-color: #212121;
+}
+
+.page:hover
+{
+    transition: background-color linear 0.5s;
+    background-color: #111111;
+}
+
+
+.avatar
+{
+    border-radius: 0;
+    border: none;
+    transition: border-radius linear 0.5s;
+}
+
+.page:hover .avatar
+{
+    border-radius: 50%;
+    border: 2px solid #D84315;
+    transition: border-radius linear 0.5s;
+}
+
+.divider.fat
+{
+    border-top: 0.3571428571428571em solid #D84315;
+    width: 0%;
+    transition: width linear 0.5s;
+    
+}
+
+.page:hover .divider.fat
+{
+    border-top: 0.3571428571428571em solid #D84315;
+    width: 40%;
+    transition: width linear 0.5s;
+}
+
+
+path
+{
+    transition: color linear 0.5s;
+    color: #212121;
+}
+
+.page:hover path
+{
+    transition: color linear 0.5s;
+    color: #E0E0E0;
+}
+
+a
+{
+    transition: color linear 0.5s;
+    color: #E0E0E0;
+}
+
+.page:hover a,
+.page:hover a > span,
+.page:hover a > strong
+{
+    transition: color linear 0.5s;
+    color: #FF5722;
+    text-decoration: underline;
+}
+
+myTag
+{
+    transition: color linear 0.5s;
+    color: #E0E0E0;
+}
+
+.page:hover myTag
+{
+    transition: color linear 0.5s;
+    color: #FF5722;
+}
+
+.page:hover em 
+{
+    color: #388E3C;
+}
+
+em 
+{
+    color: #E0E0E0;
+}
+
